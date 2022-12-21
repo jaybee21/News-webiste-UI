@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background:url(../images/background_bg.png) repeat; font:normal 13px/17px Verdana, Arial, Helvetica, sans-serif; color:#000000;}
+body, h1,h2, h3, h4, h5, ul, li, form, p{ margin:0; padding:0;}
+h1{ font-size:24px; font-weight:normal; color:#000; border-bottom:#D8222F 1px solid; padding-bottom:10px; margin-bottom:10px;}
+
+/* Wrapper */
+.wrapper{ width:990px; margin:0 auto; position:relative;}
+
+/* Logo */
+.MainLogo{ background:url(../images/news5_logo.png) no-repeat; width:97px; height:54px; position:absolute; top:20px; left:25px; cursor:pointer;}
+.MainLogo h1{ text-indent:-5000px; border:0;}
+
+.topics{ color:#636363; text-transform:uppercase; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; padding-top:10px;}
+.topics span{ color:#D8222F;}
+.categorise{ text-align:center; text-transform:uppercase; padding-top:25px;}
+
+/* Search Box */
+.searchbox{ position:absolute; right:20px; top:44px; width:208px; height:74px; color:#636363;}
+.searchbox input{width:208px; margin-top:5px;}
+.searchbox .search_btn{ background:url(../images/search_btn.png) no-repeat; border:0; width:67px; height:18px; line-height:18px; padding-bottom:4px; color:#fff; float:right; text-transform:uppercase; font-size:12px;}
+
+.header{height:136px; background:#fff ; width:990px;}
+.Hcurve_left{ background:url(../images/curve_bottom_left.png) no-repeat bottom; height:136px; width:10px; float:left; }
+.Hcurve_center{ background:#fff;height:136px; width:970px; float:left;}
+.Hcurve_right{background:url(../images/curve_bottom_right.png) no-repeat bottom right; height:136px; width:10px; float:right;}
+
+/* Menu */
+.nav { background:#fff; border:1px #AFAFAF solid; height:27px; line-height:27px; width:950px; position:absolute; top:172px; left:20px;}
+.nav li{ display:inline; list-style:none; border-right:1px solid #AFAFAF; float:left;}
+.nav li a{ float:left; font-size:12px; color:#626262; text-decoration:none; text-transform:uppercase; padding:0 19px;}
+.nav li a:hover{ background:#f4f4f4; color:#626262; text-decoration:none;}
+.nav li a.active{ background:#f4f4f4; color:#626262; font-weight:bold;}
+
+.curve_top{ background:url(../images/curve_top.png) no-repeat; height:10px; width:990px; margin-top:16px; }
+.curve_bottom{background:url(../images/curve_bottom.png) no-repeat; height:10px; width:990px;}
+
+/* Main */
+.MainBody{ background:#fff;padding:68px 20px 20px 20px;}
+
+/* Left */
+.leftPan{ float:left; width:750px; padding-right:20px;}
+.leftPan .pic{ float:left; width:260px; margin:0 20px 20px 0; padding:10px 10px 20px 10px; background:#e9e9e9; border:1px solid #AFAFAF; font:normal 12px Arial, Helvetica, sans-serif; text-align:center}
+.leftPan .pic img{ margin-bottom:20px;}
+.leftPan .pic p{ margin-bottom:10px; color:#8E8E8E; text-align:left;}
+.leftPan .pic p span{ color:#190EB1;}
+.leftPan p{ margin-bottom:15px; color:#000;}
+.leftPan span{ color:#190EB1;}
+.leftPan .bottomText{ font-size:14px; color:#8E8E8E;}
+.leftPan .newslink{ font-family:"Times New Roman", Times, serif; font-size:12px; color:#8E8E8E; margin-bottom:10px;}
+.leftPan .newslink .date{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; padding-right:79px;}
+.leftPan .newslink img{ vertical-align:middle; border:0; margin-left:10px;}
+.leftPan h2{ background:url(../images/dot.png) repeat-x bottom; padding-bottom:15px; color:#000; margin-bottom:20px; font:normal 24px Verdana, Arial, Helvetica, sans-serif; float:left; width:422px;}
+.leftPan .commentbox{ padding:15px 0; clear:left;}
+.leftPan .commentbox h1{ font-style:italic;}
+.leftPan .commentbox .commentpic{ float:left; width:126px;}
+.leftPan .comments{ padding:20px 0 15px 39px; position:relative; clear:left; background:#f4f4f4; border:#AFAFAF 1px solid; margin-bottom:15px; width:709px;}
+.leftPan .comments .date{ color:#494949; font-size:11px; position:absolute; right:37px; top:25px;}
+.leftPan .comments h3{ text-decoration:underline; font-size:18px; color:#212121; margin-bottom:25px;}
+.leftPan .comments p{ float:left; width:540px; padding-right:37px; color:#8F8F8F;}
+.pic2{ float:left; width:430px; background:#E9E9E9; border:1px solid #AFAFAF; height:197px; margin-bottom:15px;}
+.pic2 img{ float:left; margin-right:10px;}
+.pic2 h4{ font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:3A3A3A; margin-bottom:15px; margin-top:10px;}
+.pic2 p{ font-size:14px; font-family:"Times New Roman", Times, serif; color:#8e8e8e;}
+
+/* Right */
+.rightPan{ float:right; width:178px; text-align:center}
+.rightPan .adtitle{ background:url(../images/dot.png) repeat-x bottom; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#8E8E8E; text-align:center; line-height:30px; margin-bottom:7px;}
+.rightPan img{ margin-bottom:5px;}
+
+/* Adverts */
+.advert2 { width: 160px; height: 600px; margin:0 0 0 9px; padding: 0 0 0 4px; border: 1px #d8222f solid;}
+.advert2 h4 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:#d8222f; text-align:left;  font-weight:normal;margin-top:25px; text-decoration:underline;}
+.advert2 h4 a{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:#d8222f; text-align:left;  font-weight:normal;margin-top:25px; text-decoration:underline;}
+.advert2 h4 a:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:#a0c9da; text-align:left;  font-weight:normal;margin-top:25px; text-decoration:underline;}
+
+.advert2 p {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#acacac; text-align:left; margin-bottom:0px;}
+.advert2 p span{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f2b9bd; text-align:left; }
+.advert2 p span a { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f2b9bd; text-align:left; text-decoration:none;}
+.advert2 p span a:hover { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f2b9bd; text-align:left; text-decoration:underline;}
+.clear{ clear:both; font-size:0; height:0; line-height:0;} 
+
+/* Footer */
+.footer{ clear:both; color:#808080; text-align:center; padding:8px 0 10px 0;}
